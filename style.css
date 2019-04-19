@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Noto+Sans&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&subset=latin-ext');
+
+ 
+/* font-family: 'Muli', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+  font-family: 'Noto Sans', sans-serif; 
+}
+
+nav {
+  max-width: 1440px;
+  margin: 25px auto;
+  text-align: right;
+}
+
+nav a{
+  display: inline-block;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+nav a:hover{
+  border-bottom: 2px solid #555;
+  color: black;
+}
+
+nav a.reservation{
+  padding: 10px 30px;
+  border: 2px solid #555;
+  margin-left: 80px;
+  margin-right: 50px;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+nav a.reservation:hover{
+  background-color: darkcyan;
+  color: beige;
+  border-color: beige;
+}
+
+
+header {
+  height: 40vh;
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header h1{
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  line-height: 40vh;
+  background-color: rgba(0,0,0,65%);
+  font-family: 'Raleway', sans-serif;
+}
+
+footer{
+  background-color: #000;
+}
+
+main {
+  max-width: 1440px;
+  margin: 5vh auto;
+  font-size: 0;
+}
+
+main p.description{
+  font-size: 2.2rem;
+  text-align: justify;
+  margin: 0 35px;
+  line-height: 200%;
+}
+
+main section.features {
+  margin-top: 30px;
+  background-color: rgb(231, 231, 219);
+  padding-bottom: 15px;
+}
+
+main div.feature {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+}
+
+main div.image1, .image2, .image3 {
+  height: 200px;
+  margin: 20px;
+}
+
+main div.image1{
+  background-image: url(images/borowanie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main div.image2{
+  background-image: url(images/wybielanie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+main div.image3{
+  background-image: url(images/aparat.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+main h2{
+  font-size: 2rem;
+  text-align: center;
+  color: darkcyan;
+}
+
+footer {
+  background-color: darkcyan;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
